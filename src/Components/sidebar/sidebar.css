@@ -1,0 +1,13 @@
+.sidebar-menu .submenu.active{}
+.sidebar-menu .submenu.inactive{}
+
+.sidebar .sidebar-menu{overflow-y:scroll;max-height:100%;}
+.sidebar-menu .submenu.active > .subdrop{background:#1B2850;}
+.sidebar-menu .submenu.active > ul{display:block!important;}
+.sidebar-menu .submenu.active > ul li a{background:none;}
+.sidebar-menu .submenu .menu-arrow{transform: rotateZ(0deg)!important;}
+.sidebar-menu .submenu.active .menu-arrow{transform: rotateZ(90deg)!important;}
+
+.main-wrapper .sidebar{margin-left:auto;}
+.main-wrapper .sidebar.showSidebar{margin-left:0px;}
+.main-wrapper .mobile_btn{}
